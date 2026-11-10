@@ -3,10 +3,10 @@ name: Telegram Notification
 
 on:
   schedule:
-    - cron: '*/5 8 * * 1'
+    - cron: '*/5 10-15 * * 6,0'
       timezone: 'Asia/Kolkata'
 
-    - cron: '0 9 * * 1'
+    - cron: '0 15 * * 6,0'
       timezone: 'Asia/Kolkata'
 
   workflow_dispatch:
